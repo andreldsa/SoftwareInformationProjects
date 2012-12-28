@@ -1,0 +1,88 @@
+package beans;
+
+import java.io.Serializable;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+import javax.ws.rs.core.Context;
+
+import microblog.InvalidUrlException;
+import microblog.Microblog;
+
+@ManagedBean(name="newPost")
+@RequestScoped
+public class NewPostBean implements Serializable {
+
+	private static final long serialVersionUID = -5984792590825471918L;
+	
+	@Context
+	private Microblog blog;
+	
+	private String title;
+	private String url;
+	
+	private String exception;
+	private boolean occurredException;
+	
+
+	public NewPostBean() {
+		this.blog = (Microblog) BlogBean.contextBlog(false, null);
+	}
+	
+	public Microblog getBlog() {
+		return blog;
+	}
+
+	public void setBlog(Microblog blog) {
+		this.blog = blog;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String titulo) {
+		this.title = titulo;
+	}
+
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
+	
+	public String publish() {
+		try {
+			blog.newPost(title, url);
+			BlogBean.contextBlog(true, blog);
+			return "/index.xhtml"+"?faces-redirect=true";
+		} catch (InvalidUrlException e) {
+			occurredException = true;
+			exception = "Url inválida! Ex.: http:// ou https://";
+			return "";
+		} catch (Exception e) {
+			occurredException = true; 
+			exception = e.getMessage();
+			return "";
+		}
+	}
+
+	public String getException() {
+		return exception;
+	}
+
+	public void setException(String erro) {
+		this.exception = erro;
+	}
+
+	public boolean isOccurredException() {
+		return occurredException;
+	}
+
+	public void setOccurredException(boolean occurredException) {
+		this.occurredException = occurredException;
+	}
+
+}

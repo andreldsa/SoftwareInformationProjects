@@ -1,0 +1,551 @@
+!SESSION 2012-12-27 21:12:29.261 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data D:/andre/si120122 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.495
+!MESSAGE Ignoring invalid id: primefaces/colorpicker/images/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.535
+!MESSAGE Ignoring invalid id: primefaces/dock/assets/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.535
+!MESSAGE Ignoring invalid id: primefaces/editor/images/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.545
+!MESSAGE Ignoring invalid id: primefaces/jquery/ui/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.545
+!MESSAGE Ignoring invalid id: primefaces/lightbox/images/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.565
+!MESSAGE Ignoring invalid id: primefaces/treetable/images/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.565
+!MESSAGE Ignoring invalid id: primefaces/charts/charts.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.575
+!MESSAGE Ignoring invalid id: primefaces/charts/charts.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.585
+!MESSAGE Ignoring invalid id: primefaces/charts/jqplot.txt
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.595
+!MESSAGE Ignoring invalid id: primefaces/colorpicker/colorpicker.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.595
+!MESSAGE Ignoring invalid id: primefaces/colorpicker/colorpicker.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.605
+!MESSAGE Ignoring invalid id: primefaces/dock/dock.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.605
+!MESSAGE Ignoring invalid id: primefaces/dock/dock.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.615
+!MESSAGE Ignoring invalid id: primefaces/editor/editor.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.625
+!MESSAGE Ignoring invalid id: primefaces/editor/editor.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.635
+!MESSAGE Ignoring invalid id: primefaces/fileupload/fileupload.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.635
+!MESSAGE Ignoring invalid id: primefaces/fileupload/fileupload.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.645
+!MESSAGE Ignoring invalid id: primefaces/fileupload/ie-anim.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.655
+!MESSAGE Ignoring invalid id: primefaces/fileupload/readme.txt
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.665
+!MESSAGE Ignoring invalid id: primefaces/forms/password-meter.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.665
+!MESSAGE Ignoring invalid id: primefaces/galleria/galleria.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.675
+!MESSAGE Ignoring invalid id: primefaces/galleria/galleria.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.685
+!MESSAGE Ignoring invalid id: primefaces/gmap/gmap.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.695
+!MESSAGE Ignoring invalid id: primefaces/hotkey/hotkey.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.705
+!MESSAGE Ignoring invalid id: primefaces/idlemonitor/idlemonitor.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.715
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/handle.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.725
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/imagecompare.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.735
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/lt-small.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.745
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/rt-small.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.745
+!MESSAGE Ignoring invalid id: primefaces/imagecropper/crop.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.755
+!MESSAGE Ignoring invalid id: primefaces/imagecropper/imagecropper.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.755
+!MESSAGE Ignoring invalid id: primefaces/imagecropper/imagecropper.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.765
+!MESSAGE Ignoring invalid id: primefaces/imageswitch/imageswitch.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.765
+!MESSAGE Ignoring invalid id: primefaces/jquery/extensions.txt
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.785
+!MESSAGE Ignoring invalid id: primefaces/jquery/jquery.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.785
+!MESSAGE Ignoring invalid id: primefaces/keyboard/keyboard.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.795
+!MESSAGE Ignoring invalid id: primefaces/keyboard/keyboard.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.795
+!MESSAGE Ignoring invalid id: primefaces/layout/layout.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.805
+!MESSAGE Ignoring invalid id: primefaces/layout/layout.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.815
+!MESSAGE Ignoring invalid id: primefaces/log/icons.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.825
+!MESSAGE Ignoring invalid id: primefaces/log/log.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.825
+!MESSAGE Ignoring invalid id: primefaces/log/log.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.835
+!MESSAGE Ignoring invalid id: primefaces/log/panel.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.855
+!MESSAGE Ignoring invalid id: primefaces/messages/messages.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.855
+!MESSAGE Ignoring invalid id: primefaces/mindmap/mindmap.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.865
+!MESSAGE Ignoring invalid id: primefaces/mousewheel/jquery.mousewheel.min.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.875
+!MESSAGE Ignoring invalid id: primefaces/photocam/jscam.swf
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.885
+!MESSAGE Ignoring invalid id: primefaces/photocam/photocam.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.895
+!MESSAGE Ignoring invalid id: primefaces/photocam/photocam.swf
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.925
+!MESSAGE Ignoring invalid id: primefaces/printer/printer.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.935
+!MESSAGE Ignoring invalid id: primefaces/push/push.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.945
+!MESSAGE Ignoring invalid id: primefaces/raphael/raphael.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.945
+!MESSAGE Ignoring invalid id: primefaces/rating/delete.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.955
+!MESSAGE Ignoring invalid id: primefaces/rating/rating.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.965
+!MESSAGE Ignoring invalid id: primefaces/rating/star.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.975
+!MESSAGE Ignoring invalid id: primefaces/ring/ring.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.975
+!MESSAGE Ignoring invalid id: primefaces/ring/ring.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.985
+!MESSAGE Ignoring invalid id: primefaces/schedule/schedule.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:36.995
+!MESSAGE Ignoring invalid id: primefaces/schedule/schedule.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.015
+!MESSAGE Ignoring invalid id: primefaces/sheet/sheet.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.045
+!MESSAGE Ignoring invalid id: primefaces/sheet/sheet.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.055
+!MESSAGE Ignoring invalid id: primefaces/spacer/dot_clear.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.065
+!MESSAGE Ignoring invalid id: primefaces/stack/stack.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.075
+!MESSAGE Ignoring invalid id: primefaces/stack/stack.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.085
+!MESSAGE Ignoring invalid id: primefaces/terminal/terminal.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.095
+!MESSAGE Ignoring invalid id: primefaces/terminal/terminal.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.105
+!MESSAGE Ignoring invalid id: primefaces/watermark/watermark.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.105
+!MESSAGE Ignoring invalid id: primefaces/watermark/watermark.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.115
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_flat_0_2d5972_40x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.175
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_flat_0_4f4f4f_40x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.185
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_flat_0_aaaaaa_40x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.185
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_flat_100_ffffff_40x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.195
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_glass_55_fbf9ee_1x400.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.205
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_highlight-hard_80_85b2cb_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.205
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_highlight-hard_80_c4c4c4_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.215
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_highlight-hard_80_e3e3e3_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.225
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_highlight-soft_100_c4c4c4_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.225
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_highlight-soft_75_85b2cb_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.235
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_inset-hard_65_85b2cb_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.245
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_inset-hard_65_c4c4c4_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.245
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_inset-soft_95_fef1ec_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.255
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_2d5972_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.255
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_2e83ff_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.265
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_38667f_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.275
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_3a6983_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.275
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_616161_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.285
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_898989_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.295
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_cd0a0a_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:15:37.295
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_ffffff_256x240.png
+!SESSION 2012-12-27 21:26:05.458 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data D:/andre/si120122 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.347
+!MESSAGE Ignoring invalid id: primefaces/colorpicker/images/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.440
+!MESSAGE Ignoring invalid id: primefaces/dock/assets/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.440
+!MESSAGE Ignoring invalid id: primefaces/editor/images/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.456
+!MESSAGE Ignoring invalid id: primefaces/jquery/ui/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.456
+!MESSAGE Ignoring invalid id: primefaces/lightbox/images/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.471
+!MESSAGE Ignoring invalid id: primefaces/treetable/images/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.471
+!MESSAGE Ignoring invalid id: primefaces/charts/charts.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.471
+!MESSAGE Ignoring invalid id: primefaces/charts/charts.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.487
+!MESSAGE Ignoring invalid id: primefaces/charts/jqplot.txt
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.487
+!MESSAGE Ignoring invalid id: primefaces/colorpicker/colorpicker.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.487
+!MESSAGE Ignoring invalid id: primefaces/colorpicker/colorpicker.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.503
+!MESSAGE Ignoring invalid id: primefaces/dock/dock.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.503
+!MESSAGE Ignoring invalid id: primefaces/dock/dock.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.503
+!MESSAGE Ignoring invalid id: primefaces/editor/editor.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.518
+!MESSAGE Ignoring invalid id: primefaces/editor/editor.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.518
+!MESSAGE Ignoring invalid id: primefaces/fileupload/fileupload.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.518
+!MESSAGE Ignoring invalid id: primefaces/fileupload/fileupload.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.534
+!MESSAGE Ignoring invalid id: primefaces/fileupload/ie-anim.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.534
+!MESSAGE Ignoring invalid id: primefaces/fileupload/readme.txt
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.534
+!MESSAGE Ignoring invalid id: primefaces/forms/password-meter.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.534
+!MESSAGE Ignoring invalid id: primefaces/galleria/galleria.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.549
+!MESSAGE Ignoring invalid id: primefaces/galleria/galleria.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.549
+!MESSAGE Ignoring invalid id: primefaces/gmap/gmap.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.549
+!MESSAGE Ignoring invalid id: primefaces/hotkey/hotkey.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.565
+!MESSAGE Ignoring invalid id: primefaces/idlemonitor/idlemonitor.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.565
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/handle.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.565
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/imagecompare.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.581
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/lt-small.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.581
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/rt-small.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.581
+!MESSAGE Ignoring invalid id: primefaces/imagecropper/crop.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.596
+!MESSAGE Ignoring invalid id: primefaces/imagecropper/imagecropper.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.596
+!MESSAGE Ignoring invalid id: primefaces/imagecropper/imagecropper.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.596
+!MESSAGE Ignoring invalid id: primefaces/imageswitch/imageswitch.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.612
+!MESSAGE Ignoring invalid id: primefaces/jquery/extensions.txt
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.612
+!MESSAGE Ignoring invalid id: primefaces/jquery/jquery.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.612
+!MESSAGE Ignoring invalid id: primefaces/keyboard/keyboard.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.627
+!MESSAGE Ignoring invalid id: primefaces/keyboard/keyboard.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.627
+!MESSAGE Ignoring invalid id: primefaces/layout/layout.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.627
+!MESSAGE Ignoring invalid id: primefaces/layout/layout.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.627
+!MESSAGE Ignoring invalid id: primefaces/log/icons.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.643
+!MESSAGE Ignoring invalid id: primefaces/log/log.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.643
+!MESSAGE Ignoring invalid id: primefaces/log/log.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.643
+!MESSAGE Ignoring invalid id: primefaces/log/panel.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.659
+!MESSAGE Ignoring invalid id: primefaces/messages/messages.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.659
+!MESSAGE Ignoring invalid id: primefaces/mindmap/mindmap.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.674
+!MESSAGE Ignoring invalid id: primefaces/mousewheel/jquery.mousewheel.min.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.674
+!MESSAGE Ignoring invalid id: primefaces/photocam/jscam.swf
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.674
+!MESSAGE Ignoring invalid id: primefaces/photocam/photocam.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.690
+!MESSAGE Ignoring invalid id: primefaces/photocam/photocam.swf
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.690
+!MESSAGE Ignoring invalid id: primefaces/printer/printer.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.690
+!MESSAGE Ignoring invalid id: primefaces/push/push.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.705
+!MESSAGE Ignoring invalid id: primefaces/raphael/raphael.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.705
+!MESSAGE Ignoring invalid id: primefaces/rating/delete.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.705
+!MESSAGE Ignoring invalid id: primefaces/rating/rating.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.721
+!MESSAGE Ignoring invalid id: primefaces/rating/star.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.721
+!MESSAGE Ignoring invalid id: primefaces/ring/ring.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.721
+!MESSAGE Ignoring invalid id: primefaces/ring/ring.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.737
+!MESSAGE Ignoring invalid id: primefaces/schedule/schedule.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.737
+!MESSAGE Ignoring invalid id: primefaces/schedule/schedule.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.737
+!MESSAGE Ignoring invalid id: primefaces/sheet/sheet.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.737
+!MESSAGE Ignoring invalid id: primefaces/sheet/sheet.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.752
+!MESSAGE Ignoring invalid id: primefaces/spacer/dot_clear.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.752
+!MESSAGE Ignoring invalid id: primefaces/stack/stack.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.752
+!MESSAGE Ignoring invalid id: primefaces/stack/stack.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.768
+!MESSAGE Ignoring invalid id: primefaces/terminal/terminal.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.768
+!MESSAGE Ignoring invalid id: primefaces/terminal/terminal.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.768
+!MESSAGE Ignoring invalid id: primefaces/watermark/watermark.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.783
+!MESSAGE Ignoring invalid id: primefaces/watermark/watermark.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.783
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_flat_0_2d5972_40x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.783
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_flat_0_4f4f4f_40x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.799
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_flat_0_aaaaaa_40x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.799
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_flat_100_ffffff_40x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.799
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_glass_55_fbf9ee_1x400.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.815
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_highlight-hard_80_85b2cb_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.815
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_highlight-hard_80_c4c4c4_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.815
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_highlight-hard_80_e3e3e3_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.815
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_highlight-soft_100_c4c4c4_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.830
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_highlight-soft_75_85b2cb_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.830
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_inset-hard_65_85b2cb_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.830
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_inset-hard_65_c4c4c4_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.846
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_inset-soft_95_fef1ec_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.846
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_2d5972_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.846
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_2e83ff_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.861
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_38667f_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.861
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_3a6983_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.877
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_616161_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.877
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_898989_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.877
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_cd0a0a_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2012-12-27 21:27:14.893
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_ffffff_256x240.png
+
+!ENTRY org.eclipse.ui 4 4 2012-12-27 21:29:33.343
+!MESSAGE Invalid preference page path: Usage Reporting
