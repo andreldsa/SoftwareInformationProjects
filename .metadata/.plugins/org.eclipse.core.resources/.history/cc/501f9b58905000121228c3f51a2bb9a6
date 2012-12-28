@@ -1,0 +1,41 @@
+package microblog.test;
+
+import java.text.DateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
+import microblog.InvalidUrlException;
+import microblog.Microblog;
+
+import org.junit.*;
+
+
+public class MicroBlogTeste {
+
+	private Microblog blog;
+	
+	@Before
+	public void setUp() throws Exception {
+		blog = new Microblog();
+	}
+	
+	private String getActualDate() {
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(new Date());
+		DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.MEDIUM);
+		return dateFormat.format(calendar.getTime());
+	}
+
+	@Test
+	public void testPostagem() throws InvalidUrlException{
+		String titulo = "Meu primeiro post";
+		String url = "http://meuendereco.com.br/index.php";
+		
+		blog.newPost(titulo, url);
+				
+		Assert.assertEquals(titulo, blog.lastPostTitle());
+		Assert.assertEquals(getActualDate(), blog.lastPostDate());
+		Assert.assertEquals(url, blog.lastPostUrl());
+	}
+
+}

@@ -1,0 +1,52 @@
+package microblog.test;
+
+import microblog.InvalidUrlException;
+import microblog.TimeLine;
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+public class TimeLineTest {
+	
+	private TimeLine timeline;
+	
+	@Before
+	public void setUp() {
+		timeline = new TimeLine();
+	}
+
+	@Test
+	public void testGetSite() {
+		String result = timeline.getSite("https://www.meusite.com.br/index.php");
+		Assert.assertEquals("https://www.meusite.com.br", result);
+		
+		result = timeline.getSite("https://www.meusite.com.br");
+		Assert.assertEquals("https://www.meusite.com.br", result);
+		
+		result = timeline.getSite("");
+		Assert.assertEquals("", result);
+		
+		result = timeline.getSite("https://");
+		Assert.assertEquals("https://", result);
+	}
+	
+	@Test
+	public void test() throws InvalidUrlException {
+		timeline.newPost("Post", "https://www.meusite.com.br/index.php");
+		timeline.newPost("Post", "https://www.meusite2.com.br/index.php");
+		timeline.newPost("Post", "https://www.meusite.com.br/index.php");
+		timeline.newPost("Post", "https://www.meusite2.com.br/index.php");
+		timeline.newPost("Post", "https://www.meusite2.com.br/index.php");
+		timeline.newPost("Post", "https://www.meusit.com.br/index.php");
+		timeline.newPost("Post", "https://www.meusitf.com.br/index.php");
+		timeline.newPost("Post", "https://www.meusite0.com.br/index.php");
+		timeline.newPost("Post", "https://www.meusite.com.br/index.php");
+		timeline.newPost("Post", "https://www.meusite2.com.br/index.php");
+
+		System.out.println(timeline.getSites());
+		
+		System.out.println(timeline.mostPopular());
+	}
+
+}

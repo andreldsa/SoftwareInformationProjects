@@ -1,0 +1,21 @@
+package microblog.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TimeLineTest {
+	
+	private TimeLine timeline;
+	
+	private void setup() {
+		timeline = new TimeLine();
+
+	}
+
+	@Test
+	public void testGetSite() {
+		
+	}
+
+}

@@ -1,0 +1,164 @@
+
+.body {
+	font-family: arial;
+	background-color: #FFFFFF;
+	margin: auto;
+	width: 1000px;
+}
+
+/*------------ Header -----------------------------------*/
+
+#header {
+	background-color: #009ACD;
+	color: #FFFFFF;
+	font-size: large;
+	font-weight: bold;
+	padding: 7px;
+	
+}
+
+#menu {
+	background-color: #FFFFFF;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+.menubutton {
+	background-color: #4682B4;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: small;
+	border: 0;	
+	height: 25px;
+	padding: 5px;
+}
+
+.menuButton:hover {
+	background-color: #009ACD;
+	color: #FFFFFF;
+}
+
+.menuButton:active {
+	background-color: #2F4F4F;
+	color: #FFFFFF;
+}
+
+/*--------------- POST -----------------------------------*/
+
+#posts {
+	float:left;
+	
+}
+
+#post {
+	background-color: #FFFFFF;
+	border: solid 1px #009ACD;
+	border-left: 0px;
+	width: 836px;
+	margin-bottom: 10px;
+	padding:7px;
+}
+
+.title {
+	font-weight: bold;
+	color: #4682B4;
+}
+
+.url {
+	font-size: small;
+	margin-left: 15px;
+}
+
+.date {
+	font-size: x-small;
+	color: #708090;
+}
+
+#novopost {
+	border: solid 1px #009ACD;
+	border-left: 0;
+	width: 836px;
+	float: left;
+	padding: 7px;
+}
+
+.novoPostTitle {
+	font-weight: bold;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#msgEmptyPosts {
+	background-color: #FFFFFF;
+	border: solid 1px #009ACD;
+	border-left: 0px;
+	width: 850px;
+	min-height: 50px;
+	margin-bottom: 10px;
+	padding:7px;
+	text-align: center;
+	font-size: small;
+}
+
+.exception {
+	font-size: small;
+	color: red;
+	margin-bottom:20px;
+}
+
+/*--------------------SIDEBAR---------------------*/
+
+#sidebar {
+	float: right;
+	width: 148px;
+	margin-bottom: 20px;
+}
+
+#sidebarBox {
+	border: solid 1px #009ACD;
+	border-left: 0;
+	width: 148px;
+}
+
+#sidebarTitle {
+	font-size: small;
+	font-weight: bold;
+	color:#4682B4;
+	border-bottom: solid 1px #009ACD;
+	text-align: center; 
+}
+
+.sidebarItem {
+	font-size: small;
+	margin-left: 5px;
+	text-align: left;
+}
+
+.button {
+	background-color: #009ACD;
+	border: 0;
+	font-weight: bold;
+	color:#FFFFFF;
+	height: 25px;
+	padding: 5px;
+}
+
+.button:hover {
+	background-color: #4682B4;
+}
+
+.button:active {
+	background-color: #2F4F4F;
+}
+
+/*------------------------FOOTER-----------------------*/
+
+#footer {
+	background-color: #009ACD;
+	height: 25px;
+	font-size: small;
+	padding-top:5px;
+	color: #FFFFFF;
+	text-align: center;
+	clear: both;
+}

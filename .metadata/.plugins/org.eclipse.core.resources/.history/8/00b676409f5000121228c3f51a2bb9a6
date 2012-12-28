@@ -1,0 +1,93 @@
+package beans;
+
+import java.io.Serializable;
+import java.util.List;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+import javax.faces.context.FacesContext;
+
+import microblog.Microblog;
+
+@ManagedBean(name="blog")
+@RequestScoped
+public class BlogBean implements Serializable{
+
+	private static final long serialVersionUID = 6780896754564557218L;
+	private static final int DEFAULT_MAX_POSTS = 5;
+	
+	private Microblog blog;
+	private List<?> posts;
+	private int numPosts = DEFAULT_MAX_POSTS;
+	
+	private static final String HOME = "/index.xhtml";
+	
+	private boolean allPosts = false;
+	
+	public BlogBean() {
+		blog = (Microblog) contextBlog(false, blog);
+		if(blog == null)
+			blog = new Microblog();
+		posts = blog.getPosts();
+	}
+	
+	public static Object contextBlog(Boolean isInject, Microblog blog) {
+		if(isInject && blog != null) {
+			FacesContext.getCurrentInstance()
+				.getExternalContext().getApplicationMap().put("blogBean", blog);
+			return "";
+		}else if (!isInject) {
+			return (Microblog) FacesContext.getCurrentInstance()
+					.getExternalContext().getApplicationMap().get("blogBean");
+		} else {
+			throw new IllegalArgumentException("Argument is null.");
+		}
+	}
+	
+	public String getHome() {
+		return HOME+"?faces-redirect=true";
+	}
+	
+	public String newPost() {
+		contextBlog(true, blog);
+		return "/newpost.xhtml"+"?faces-redirect=true";
+	}
+	
+	public void allPosts() {
+		allPosts = true;
+		numPosts = posts.size()-1;
+	}
+	
+	public void hidePosts() {
+		allPosts = false;
+		numPosts = DEFAULT_MAX_POSTS;
+	}
+	
+	public List<?> getPosts() {
+		return posts;
+	}
+
+	public void setPosts(List<?> posts) {
+		this.posts = posts;
+	}
+
+	public int getNumPosts() {
+		if(posts.size() < DEFAULT_MAX_POSTS) {
+			return posts.size()-1;
+		}
+		return numPosts;
+	}
+
+	public void setNumPosts(int numPosts) {
+		this.numPosts = numPosts;
+	}
+	
+	public boolean isAllPosts() {
+		return allPosts;
+	}
+	
+	public String mosPopular() {
+		return blog.mostPopular();
+	}
+	
+}

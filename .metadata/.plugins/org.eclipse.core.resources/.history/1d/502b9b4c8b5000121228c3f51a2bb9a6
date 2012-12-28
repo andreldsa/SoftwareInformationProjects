@@ -1,0 +1,34 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets" 
+	xmlns:p="http://primefaces.org/ui">
+	
+	<ui:include src="/header.xhtml"/>
+	
+	<h:body styleClass="body">
+		<div id="posts">
+			<div id="msgEmptyPosts">
+			</div>
+			<ui:repeat id="posts" var="_post" value="#{blog.posts}" size="#{blog.numPosts}">
+				<div id="post">
+					<h:outputText value="Ainda não existem posts. Clique em New Post para começar!"
+						rendered="#{blog.posts.size() == 0}"/>
+					<h:outputText styleClass="title" value="#{_post.title}"/><br />
+					<h:outputText styleClass="url" value="#{_post.url}"/><br/>
+					<h:outputText styleClass="date" value="#{_post.getDesc()}"/>
+				</div>
+			</ui:repeat>
+			<h:form>
+			<h:commandButton action="#{blog.allPosts()}" value="Ver +" styleClass="button"
+				rendered="#{not blog.isAllPosts() and blog.posts.size() > 6}"/>
+			<h:commandButton action="#{blog.hidePosts()}" value="Ver -" styleClass="button"
+				rendered="#{blog.isAllPosts()}"/>
+		</h:form>
+		</div>
+	</h:body>
+	
+	<ui:include src="/sidebar.xhtml" />
+	
+	<ui:include src="/footer.xhtml" />
+	
+</html>

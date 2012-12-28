@@ -1,0 +1,37 @@
+package microblog;
+
+import java.util.List;
+
+public class Microblog {
+	
+	private TimeLine timeLine;
+	
+	public Microblog() {
+		this.timeLine = new TimeLine();
+	}
+	
+	public void newPost(String title, String url) throws InvalidUrlException {
+		this.timeLine.newPost(title, url);
+	}
+
+	public String lastPostDate() {
+		return this.timeLine.getLastPostDate();
+	}
+
+	public String lastPostTitle() {
+		return this.timeLine.getLastPostTitle();
+	}
+	
+	public String lastPostUrl() {
+		return this.timeLine.getLastPostUrl();
+	}
+	
+	public List<?> getPosts() {
+		return timeLine.getPosts();
+	}
+
+	@Override
+	public String toString() {
+		return "Last Post: "+timeLine.getLastPostTitle()+", "+timeLine.getLastPostDate();
+	}
+}

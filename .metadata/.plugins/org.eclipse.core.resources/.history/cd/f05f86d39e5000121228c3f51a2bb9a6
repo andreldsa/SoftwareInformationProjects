@@ -1,0 +1,13 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets" 
+	xmlns:p="http://primefaces.org/ui">
+
+	<div id="sidebar">
+		<div id="sidebarBox">
+			<div id="sidebarTitle"><h:outputText styleClass="sidebarTitle" value="+ Popular"/></div>
+			<h:outputText styleClass="sidebarItem" value="blog.mostPopular()"/>
+		</div>
+	</div>
+	
+</html>

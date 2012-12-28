@@ -1,0 +1,24 @@
+package microblog.test;
+
+import microblog.TimeLine;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class TimeLineTest {
+	
+	private TimeLine timeline;
+	
+	private void setup() {
+		timeline = new TimeLine();
+
+	}
+
+	@Test
+	public void testGetSite() {
+		String result = timeline.getSite("https://www.meusite.com.br/index.php");
+		
+		Assert.assertArrayEquals("https://www.meusite.com.br", result);
+	}
+
+}

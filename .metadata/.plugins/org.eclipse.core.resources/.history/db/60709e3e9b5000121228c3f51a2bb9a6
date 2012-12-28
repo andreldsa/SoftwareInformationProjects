@@ -1,0 +1,71 @@
+package microblog;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.SortedMap;
+import java.util.TreeMap;
+
+public class TimeLine {
+	
+	private List<Post> posts;
+	private Map<String, Integer> sites;
+	
+	public TimeLine() {
+		posts = new LinkedList<Post>();
+		sites = new TreeMap<String, Integer>();
+	}
+
+	public void newPost(String title, String url) throws InvalidUrlException {
+		posts.add(0, new Post(title, url));
+		String site = getSite(url);
+		if (sites.containsValue(site)) 
+			sites.put(site, sites.get(site) + 1);
+		else 
+			sites.put(site, 1);
+	}
+	
+	public String getSite(String url) {
+		String result = "";
+		int count = 0;
+		int i = 0;
+		while(count < 3 && i < url.length()) {
+			if (url.charAt(i) == "/".charAt(0)) {
+				count++;
+				if (count == 3) 
+					break;
+				result += url.charAt(i);
+			}else {
+				result += url.charAt(i);
+			}
+			i++;
+		}
+		return result;
+	}
+	
+	public String getLastPostTitle() {
+		return posts.get(0).getTitle();
+	}
+
+	public String getLastPostDate() {
+		return posts.get(0).getDate();
+	}
+
+	public String getLastPostUrl() {
+		return posts.get(0).getPostUrl();
+	}
+	
+	public List<?> getPosts() {
+		return posts;
+	}
+
+	public String mostPopular() {
+		
+		return null;
+	}
+	
+	public Map<String, Integer> getSites() {
+		return sites;
+	}
+
+}

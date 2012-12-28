@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MicroBlogTeste" project="lab1" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="microblog.test.MicroBlogTeste" time="0.031">
+    <testcase name="testPostagem" classname="microblog.test.MicroBlogTeste" time="0.031"/>
+    <testcase name="testMostPopular" classname="microblog.test.MicroBlogTeste" time="0.0"/>
+  </testsuite>
+</testrun>

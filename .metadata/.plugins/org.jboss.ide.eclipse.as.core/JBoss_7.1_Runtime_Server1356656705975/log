@@ -1,0 +1,235 @@
+!SESSION 2012-12-27 21:37:27.770 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data D:/andre/si120122 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:05:39.105
+!MESSAGE Module lab1 published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-12-27 22:05:45.825
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-12-27 22:06:10.676
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:09:58.975
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:10:05.175
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2012-12-27 22:10:15.605
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-27 22:10:16.327
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-27 22:10:16.397
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842785 2012-12-27 22:10:16.397
+!MESSAGE Server Shutdown Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-12-27 22:10:21.737
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-12-27 22:10:30.471
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:11:11.135
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:11:46.857
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:11:49.267
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:16:02.619
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:16:28.109
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:16:31.729
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:16:35.799
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:18:09.529
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:18:28.299
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:18:37.799
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:18:45.399
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:29:48.428
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2012-12-27 22:29:59.038
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-27 22:29:59.735
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-27 22:29:59.765
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-27 22:29:59.815
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-12-27 22:30:04.985
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-12-27 22:30:12.397
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:40:44.999
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-27 22:40:49.209
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-27 22:42:07.908
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-27 22:42:07.908
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-27 22:42:07.999
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:29:00.950
+!MESSAGE 5 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-12-28 00:29:06.176
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-12-28 00:29:12.561
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:29:47.009
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:30:14.389
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:31:44.808
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2012-12-28 00:31:46.149
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-28 00:31:46.526
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842785 2012-12-28 00:31:46.526
+!MESSAGE Server Shutdown Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-12-28 00:31:51.752
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-12-28 00:31:58.213
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:32:49.825
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:32:53.787
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2012-12-28 00:32:54.942
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-28 00:32:55.428
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-28 00:32:55.443
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-28 00:32:55.475
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-12-28 00:33:00.607
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-12-28 00:33:07.049
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:34:55.099
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:35:03.086
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2012-12-28 00:35:03.991
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-28 00:35:04.382
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-28 00:35:04.399
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-28 00:35:04.414
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-12-28 00:35:09.609
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-12-28 00:35:16.009
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:36:34.481
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2012-12-28 00:36:43.966
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-28 00:36:44.807
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-28 00:36:44.822
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2012-12-28 00:36:44.822
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2012-12-28 00:36:50.080
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2012-12-28 00:36:56.759
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:41:05.959
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:41:17.004
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:43:22.132
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:43:32.100
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:43:54.081
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:44:33.127
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:45:41.627
+!MESSAGE 1 files modified in module lab1
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2012-12-28 00:46:45.712
+!MESSAGE 1 files modified in module lab1

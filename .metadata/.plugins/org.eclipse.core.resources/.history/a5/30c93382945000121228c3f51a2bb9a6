@@ -1,0 +1,44 @@
+package microblog;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class TimeLine {
+	
+	private List<Post> posts;
+	private Map<String, Integer> sites;
+	
+	public TimeLine() {
+		posts = new LinkedList<Post>();
+		sites = new HashMap<String, Integer>();
+	}
+
+	public void newPost(String title, String url) throws InvalidUrlException {
+		posts.add(0, new Post(title, url));
+	}
+	
+	public String getLastPostTitle() {
+		return posts.get(0).getTitle();
+	}
+
+	public String getLastPostDate() {
+		return posts.get(0).getDate();
+	}
+
+	public String getLastPostUrl() {
+		return posts.get(0).getPostUrl();
+	}
+	
+	public List<?> getPosts() {
+		return posts;
+	}
+
+	public String mostPopular() {
+		
+		return null;
+	}
+
+}
