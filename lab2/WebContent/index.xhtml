@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+	<h:head><title>Recombinador de Textos</title>
+	</h:head>
+	<h:body>
+		<h:form>
+			<p:growl id="growl" showDetail="true" sticky="true" /> 
+			<p:panel style="border:solid 1px #c0c0c0; 
+					width:750px;heigth:100%; padding:10px;
+					margin:auto;">	
+				<p:panel style="border:solid 1px #c0c0c0;
+					margin-bottom:20px;text-align:center;">
+					<h3><b>Recombinador de Textos</b></h3>
+				</p:panel>	
+				<p:inputTextarea value="#{mainBean.texto}"
+					style="height:300px;width:100%;max-width:100%;"/>
+				<p:panel style="border:solid 1px #c0c0c0;
+					margin-top:20px;">
+					<h:panelGrid columns="2" style="margin:auto;">
+						<h:commandButton value="Cadastrar" action="#{mainBean.cadastraTexto()}"/>
+						<h:commandButton value="Ver Textos" action="#{mainBean.listarTextos()}"/>
+					</h:panelGrid>
+				</p:panel>
+			</p:panel>
+		</h:form>
+	</h:body>
+</html>
